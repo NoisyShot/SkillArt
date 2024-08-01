@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>SkillArt</title>
+
+   <!-- favicon -->
+   <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon/favicon-16x16.png">
+   <link rel="manifest" href="icon/favicon/site.webmanifest">
+   <link rel="mask-icon" href="icon/favicon/safari-pinned-tab.svg" color="#5bbad5">
+   <meta name="msapplication-TileColor" content="#603cba">
+   <meta name="theme-color" content="#ff0000">
+   <!-- favicon - end -->
+
+   <!-- fonts -->
+   <link rel="preload" href="https://fonts.googleapis.com" as="font" crossorigin>
+   <link rel="preload" href="https://fonts.gstatic.com" as="font" crossorigin>
+   <!-- fonts - end -->
+
+   <!-- style -->
+   <link rel="stylesheet" href="style/index.css" />
+   <!-- to do разобраться как правильно подключать стили на многостроничный сайт -->
+   <!-- style - end -->
+
+   <!-- script vanilla -->
+   <script src="JS/script.js" defer></script>
+   <!-- script vanilla  end-->
+
+</head>
+
+<body>
+
+   <header class="header container no-padding">
+      <div class="ticker">
+         <div class="ticker__animation">
+            <div class="ticker__block">
+               <svg class="ticker__ellipse" viewBox="0 0 3 3" role="img" aria-label="разделитель бегущей строки">
+                  <use href="icon/sprite.svg#ellipse"></use>
+               </svg>
+               <p class="ticker__text uppercase">5&nbsp;&mdash; 6&nbsp;июля курс &laquo;для начинающих&raquo;</p>
+            </div>
+            <div class="ticker__block">
+               <svg class="ticker__ellipse" viewBox="0 0 3 3" role="img" aria-label="разделитель бегущей строки">
+                  <use href="icon/sprite.svg#ellipse">
+               </svg>
+               <p class="ticker__text uppercase">5&nbsp;&mdash; 6&nbsp;июля курс &laquo;для начинающих&raquo;</p>
+            </div>
+            <div class="ticker__block">
+               <svg class="ticker__ellipse" viewBox="0 0 3 3" role="img" aria-label="разделитель бегущей строки">
+                  <use href="icon/sprite.svg#ellipse">
+               </svg>
+               <p class="ticker__text uppercase">5&nbsp;&mdash; 6&nbsp;июля курс &laquo;для начинающих&raquo;</p>
+            </div>
+            <div class="ticker__block">
+               <svg class="ticker__ellipse" viewBox="0 0 3 3" role="img" aria-label="разделитель бегущей строки">
+                  <use href="icon/sprite.svg#ellipse">
+               </svg>
+               <p class="ticker__text uppercase">5&nbsp;&mdash; 6&nbsp;июля курс &laquo;для начинающих&raquo;</p>
+            </div>
+            <div class="ticker__block">
+               <svg class="ticker__ellipse" viewBox="0 0 3 3" role="img" aria-label="разделитель бегущей строки">
+                  <use href="icon/sprite.svg#ellipse">
+               </svg>
+               <p class="ticker__text uppercase">5&nbsp;&mdash; 6&nbsp;июля курс &laquo;для начинающих&raquo;</p>
+            </div>
+         </div>
+
+         <div aria-hidden="true" class="ticker__animation">
+            <div class="ticker__block">
+               <svg class="ticker__ellipse" viewBox="0 0 3 3" role="img" aria-label="разделитель бегущей строки">
+                  <use href="icon/sprite.svg#ellipse">
+               </svg>
+               <p class="ticker__text uppercase">5&nbsp;&mdash; 6&nbsp;июля курс &laquo;для начинающих&raquo;</p>
+            </div>
+            <div class="ticker__block">
+               <svg class="ticker__ellipse" viewBox="0 0 3 3" role="img" aria-label="разделитель бегущей строки">
+                  <use href="icon/sprite.svg#ellipse">
+               </svg>
+               <p class="ticker__text uppercase">5&nbsp;&mdash; 6&nbsp;июля курс &laquo;для начинающих&raquo;</p>
+            </div>
+            <div class="ticker__block">
+               <svg class="ticker__ellipse" viewBox="0 0 3 3" role="img" aria-label="разделитель бегущей строки">
+                  <use href="icon/sprite.svg#ellipse">
+               </svg>
+               <p class="ticker__text uppercase">5&nbsp;&mdash; 6&nbsp;июля курс &laquo;для начинающих&raquo;</p>
+            </div>
+            <div class="ticker__block">
+               <svg class="ticker__ellipse" viewBox="0 0 3 3" role="img" aria-label="разделитель бегущей строки">
+                  <use href="icon/sprite.svg#ellipse">
+               </svg>
+               <p class="ticker__text uppercase">5&nbsp;&mdash; 6&nbsp;июля курс &laquo;для начинающих&raquo;</p>
+            </div>
+            <div class="ticker__block">
+               <svg class="ticker__ellipse" viewBox="0 0 3 3" role="img" aria-label="разделитель бегущей строки">
+                  <use href="icon/sprite.svg#ellipse">
+               </svg>
+               <p class="ticker__text uppercase">5&nbsp;&mdash; 6&nbsp;июля курс &laquo;для начинающих&raquo;</p>
+            </div>
+         </div>
+      </div>
+
+      <nav class="nav">
+         <ol class="nav__list">
+            <li class="nav__list__item"><a href="#" class="nav__list__item-link" href="">Контакты</a></li>
+            <li class="nav__list__item"><a href="#" class="nav__list__item-link" href="">О Нас </a></li>
+            <li class="nav__list__item"><a href="#" class="nav__list__item-link" href="">
+                  <svg class="nav__list__svg" viewBox="0 0 244 45" role="img" aria-label="Логотип SkillArt">
+                     <use xlink:href="icon/sprite.svg#logo" />
+                  </svg>
+               </a></li>
+            <li class="nav__list__item"><a href="#" class="nav__list__item-link" href="">Курсы</a></li>
+            <li class="nav__list__item"><a href="#" class="nav__list__item-link" href="">Расписание</a></li>
+         </ol>
+         <ol class="nav__social">
+            <li class="nav__social__item">
+               <a href="#" class="nav__social__item-link">
+                  <svg class="nav__social__svg nav__social__svg-phone" viewBox="0 0 25 25" role="img"
+                     aria-label="Телефон">
+                     <use href="icon/sprite.svg#phone"></use>
+                  </svg>
+               </a>
+            </li>
+            <li class="nav__social__item">
+               <a href="#" class="nav__social__item-link">
+                  <svg class="nav__social__svg nav__social__svg-email" viewBox="0 0 25 25" role="img"
+                     aria-label="Электронная почта">
+                     <use href="icon/sprite.svg#email"></use>
+                  </svg>
+               </a>
+            </li>
+            <li class="nav__social__item">
+               <a href="#" class="nav__social__item-link">
+                  <svg class="nav__social__svg nav__social__svg-telegram" viewBox="0 0 25 25" role="img"
+                     aria-label="Телеграм">
+                     <use href="icon/sprite.svg#telegram"></use>
+                  </svg>
+               </a>
+            </li>
+            <li class="nav__social__item">
+               <a href="#" class="nav__social__item-link">
+                  <svg class="nav__social__svg nav__social__svg-instagram" viewBox="0 0 25 25" role="img"
+                     aria-label="Инстаграм">
+                     <use href="icon/sprite.svg#instagram"></use>
+                  </svg>
+               </a>
+            </li>
+         </ol>
+      </nav>
+
+      <nav class="nav nav__modal ">
+         <div class="nav__modal__interface-wrapper">
+            <a href="#" class="nav__list__item-link" href="#">
+               <svg class="nav__list__svg modal__logo" viewBox="0 0 244 45" role="img" aria-label="Логотип SkillArt">
+                  <use xlink:href="icon/sprite.svg#logo" />
+               </svg>
+            </a>
+
+            <svg class="nav__list__svg modal__open" viewBox="0 0 58 35" role="img" aria-label="Выпадающее меню">
+               <use xlink:href="icon/sprite.svg#modal__open" />
+            </svg>
+
+            <svg class="nav__list__svg modal__close hidden" viewBox="0 0 58 35" role="img" aria-label="Выпадающее меню">
+               <use xlink:href="icon/sprite.svg#modal__close" />
+            </svg>
+         </div>
+
+         <div class="nav__modal__window hidden">
+            <ol class="nav__list">
+               <li class="nav__list__item"><a href="#" class="nav__list__item-link uppercase" href="">курсы</a>
+               </li>
+               <ol class="nav__list__course">
+                  <li class="nav__list__course-item">
+                     <a href="#" class="nav__list__course-link">Курс "Для начинающих"</a>
+                  </li>
+                  <li class="nav__list__course-item">
+                     <a href="#" class="nav__list__course-link">Курс "Имитация мрамора"</a>
+                  </li>
+                  <li class="nav__list__course-item">
+                     <a href="#" class="nav__list__course-link">Курс "Лофт"</a>
+                  </li>
+                  <li class="nav__list__course-item">
+                     <a href="#" class="nav__list__course-link">Курс "Трафаретные техники для акцентных стен в
+                        интерьере"</a>
+                  </li>
+                  <li class="nav__list__course-item">
+                     <a href="#" class="nav__list__course-link">Курс "Тонкослойное нанесение"</a>
+                  </li>
+                  <li class="nav__list__course-item">
+                     <a href="#" class="nav__list__course-link">Индивидуальное обучение</a>
+                  </li>
+               </ol>
+               <li class="nav__list__item"><a href="#" class="nav__list__item-link uppercase" href="">расписание</a>
+               </li>
+               <li class="nav__list__item"><a href="#" class="nav__list__item-link uppercase" href="">контакты</a></li>
+            </ol>
+            <ol class="nav__social">
+               <li class="nav__social__item">
+                  <a href="" class="nav__social__item-link">
+                     <svg class="nav__social__svg nav__social__svg-phone" viewBox="0 0 25 25" role="img"
+                        aria-label="Телефон">
+                        <use href="icon/sprite.svg#phone"></use>
+                     </svg>
+                  </a>
+               </li>
+               <li class="nav__social__item">
+                  <a href="" class="nav__social__item-link">
+                     <svg class="nav__social__svg nav__social__svg-email" viewBox="0 0 25 25" role="img"
+                        aria-label="Электронная почта">
+                        <use href="icon/sprite.svg#email"></use>
+                     </svg>
+                  </a>
+               </li>
+               <li class="nav__social__item">
+                  <a href="" class="nav__social__item-link">
+                     <svg class="nav__social__svg nav__social__svg-telegram" viewBox="0 0 25 25" role="img"
+                        aria-label="Телеграм">
+                        <use href="icon/sprite.svg#telegram"></use>
+                     </svg>
+                  </a>
+               </li>
+               <li class="nav__social__item">
+                  <a href="" class="nav__social__item-link">
+                     <svg class="nav__social__svg nav__social__svg-instagram" viewBox="0 0 25 25" role="img"
+                        aria-label="Инстаграм">
+                        <use href="icon/sprite.svg#instagram"></use>
+                     </svg>
+                  </a>
+               </li>
+            </ol>
+         </div>
+         <!-- to do анимация подчеркиваня в меню  -->
+      </nav>
+
+
+      <div class="hero">
+         <div class="swiper">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide"><img src="img/work_1.jpeg" alt="Пример работы"></div>
+               <div class="swiper-slide"><img src="img/work_2.jpeg" alt="Пример работы"></div>
+               <div class="swiper-slide"><img src="img/work_3.jpeg" alt="Пример работы"></div>
+               <div class="swiper-slide"><img src="img/work_4.jpeg" alt="Пример работы"></div>
+               <div class="swiper-slide"><img src="img/work_5.jpeg" alt="Пример работы"></div>
+               <div class="swiper-slide"><img src="img/work_6.jpeg" alt="Пример работы"></div>
+            </div>
+
+            <div class="swiper-index">
+               <svg class="swiper-index__ellipse" viewBox="0 0 10 10" role="img" aria-label="индекс карусели">
+                  <use href="icon/sprite.svg#ellipse"></use>
+               </svg>
+            </div>
+         </div>
+         <!-- to do добавляем через скрипт ещё иконок и делаем их прозрачными  -->
+         <div class="preview__wrapper container">
+            <h1 class="preview__title">Обучение декоративной штукатурке в Минске</h1>
+            <p class="preview__text">Хочешь научиться интересной и престижной профессии?</p>
+            <a href="#" class="preview__button registration-button button">
+               <svg class="preview__button-svg registration-button-svg" fill="currentColor" viewBox="0 0 25 25"
+                  role="img" aria-label="Телеграм">
+                  <use href="icon/sprite.svg#telegram"></use>
+               </svg>
+               <span class="preview__button-text registration-button-text">Записаться на курс</span>
+            </a>
+         </div>
+      </div>
+   </header>
+
+   <main>
+      <section class="container catalog">
+         <h3 class="catalog__title">
+            Школа декораторов SKILLart предлагает следующие курсы:
+         </h3>
+         <div class="catalog__wrapper">
+            <div class="catalog__card">
+               <img src="img/work_1.jpeg" alt="Обложка курса" class="card__img img">
+               <h3 class="card__title">Курс “Для начинающих”</h3>
+               <p class="card__text">подходит для тех, кто хочет познакомится с декоративными материалами и базовыми
+                  техниками нанесения декоративной штукатурки, для маляров, кто хочет попробовать самостоятельно
+                  сделать у себя дома декор</p>
+               <ol class="card__list">
+                  <li class="card__list-item">
+                     <svg class="card__list-item__svg" fill="currentColor" viewBox="0 0 20 20" role="img"
+                        aria-label="Часы">
+                        <use href="icon/sprite.svg#clock"></use>
+                     </svg>
+                     <p class="card__item-text">
+                        <span class="bold">
+                           2 дня
+                        </span>
+                        (с 10:00 до 18:00)
+                     </p>
+                  </li>
+                  <li class="card__list-item">
+
+                     <svg class="card__list-item__svg" fill="currentColor" viewBox="0 0 23 21" role="img"
+                        aria-label="Краска">
+                        <use href="icon/sprite.svg#paint"></use>
+                     </svg>
+                     <p class="card__item-text">
+                        <span class="bold">
+                           10 видов материалов
+                        </span>
+                     </p>
+                  </li>
+                  <li class="card__list-item">
+
+                     <svg class="card__list-item__svg" fill="currentColor" viewBox="0 0 22 18" role="img"
+                        aria-label="Кисть">
+                        <use href="icon/sprite.svg#roller"></use>
+                     </svg>
+                     <p class="card__item-text">
+                        <span class="bold">
+                           10 видов техник
+                        </span>
+                     </p>
+                  </li>
+               </ol>
+               <div class="price">
+                  <p class="card__price-text">Стоимость:</p>
+                  <p class="card__price bold">400 BYN</p>
+                  <a href="" class="about-course__link button">
+                     <span class="about-course">Подробнее про курс</span>
+                  </a>
+               </div>
+            </div>
+            <div class="catalog__card">
+               <img src="img/work_2.jpeg" alt="Обложка курса" class="card__img img">
+               <h3 class="card__title">Курс “Имитация мрамора”</h3>
+               <p class="card__text">подходит для практикующих мастеров, кто хочет научится делать различные эффекты
+                  мрамора из венецианской штукатурки</p>
+               <ol class="card__list">
+                  <li class="card__list-item">
+                     <svg class="card__list-item__svg" fill="currentColor" viewBox="0 0 20 20" role="img"
+                        aria-label="Часы">
+                        <use href="icon/sprite.svg#clock"></use>
+                     </svg>
+                     <p class="card__item-text">
+                        <span class="bold">
+                           2 дня
+                        </span>
+                        (с 10:00 до 19:00)
+                     </p>
+                  </li>
+                  <li class="card__list-item">
+
+                     <svg class="card__list-item__svg" fill="currentColor" viewBox="0 0 22 18" role="img"
+                        aria-label="Кисть">
+                        <use href="icon/sprite.svg#roller"></use>
+                     </svg>
+                     <p class="card__item-text">
+                        <span class="bold">
+                           Черный, белый мрамор
+                        </span>
+                     </p>
+                  </li>
+                  <li class="card__list-item">
+
+                     <svg class="card__list-item__svg" fill="currentColor" viewBox="0 0 22 18" role="img"
+                        aria-label="Кисть">
+                        <use href="icon/sprite.svg#roller"></use>
+                     </svg>
+                     <p class="card__item-text">
+                        <span class="bold">
+                           Мрамор в 4-5 цветов
+                        </span>
+                     </p>
+                  </li>
+               </ol>
+               <div class="price">
+                  <p class="card__price-text">Стоимость:</p>
+                  <p class="card__price bold">450 BYN</p>
+                  <a href="" class="about-course__link button">
+                     <span class="about-course">Подробнее про курс</span>
+                  </a>
+               </div>
+
+            </div>
+            <div class="catalog__card">
+               <img src="img/work_3.jpeg" alt="Обложка курса" class="card__img img">
+               <h3 class="card__title">Курс “Лофт”</h3>
+               <p class="card__text">подходит для тех кто хочет прокачать свои навыки нанесения декоративной штукатурки
+                  в стиле лофт</p>
+               <ol class="card__list">
+                  <li class="card__list-item">
+                     <svg class="card__list-item__svg" fill="currentColor" viewBox="0 0 20 20" role="img"
+                        aria-label="Часы">
+                        <use href="icon/sprite.svg#clock"></use>
+                     </svg>
+                     <p class="card__item-text">
+                        <span class="bold">
+                           2 дня
+                        </span>
+                        (с 10:00 до 18:00)
+                     </p>
+                  </li>
+
+                  <li class="card__list-item">
+                     <svg class="card__list-item__svg" fill="currentColor" viewBox="0 0 22 18" role="img"
+                        aria-label="Кисть">
+                        <use href="icon/sprite.svg#roller"></use>
+                     </svg>
+                     <p class="card__item-text">
+                        <span class="bold">
+                           6 видов техник
+                        </span>
+                     </p>
+                  </li>
+               </ol>
+               <div class="price">
+                  <p class="card__price-text">Стоимость:</p>
+                  <p class="card__price bold">400 BYN</p>
+                  <a href="" class="about-course__link button">
+                     <span class="about-course">Подробнее про курс</span>
+                  </a>
+               </div>
+            </div>
+            <div class="catalog__card">
+               <img src="img/work_4.jpeg" alt="Обложка курса" class="card__img img">
+               <h3 class="card__title">Трафаретные техники для акцентных стен в интерьере</h3>
+               <p class="card__text">подходит для тех кто хочет научиться работать с трафаретами в 3,4-5 цветов, тем
+                  самым создавать акцентные стены в интерьере</p>
+               <ol class="card__list">
+                  <li class="card__list-item">
+                     <svg class="card__list-item__svg" fill="currentColor" viewBox="0 0 20 20" role="img"
+                        aria-label="Часы">
+                        <use href="icon/sprite.svg#clock"></use>
+                     </svg>
+                     <p class="card__item-text">
+                        <span class="bold">
+                           2 дня
+                        </span>
+                        (с 10:00 до 15:00)
+                     </p>
+                  </li>
+
+                  <li class="card__list-item">
+                     <svg class="card__list-item__svg" fill="currentColor" viewBox="0 0 22 18" role="img"
+                        aria-label="Кисть">
+                        <use href="icon/sprite.svg#roller"></use>
+                     </svg>
+                     <p class="card__item-text">
+                        <span class="bold">
+                           3 вида техник
+                        </span>
+                     </p>
+                  </li>
+               </ol>
+               <div class="price">
+                  <p class="card__price-text">Стоимость:</p>
+                  <p class="card__price bold">200 BYN</p>
+                  <a href="" class="about-course__link button">
+                     <span class="about-course">Подробнее про курс</span>
+                  </a>
+               </div>
+            </div>
+            <div class="catalog__card">
+               <img src="img/work_5.jpeg" alt="Обложка курса" class="card__img img">
+               <h3 class="card__title">Курс “Тонкослойные нанесения”</h3>
+               <p class="card__text">подходит для тех кто хочет познакомится с различными тонкослойными декоративными
+                  штукатурками различных брендов</p>
+               <ol class="card__list">
+                  <li class="card__list-item">
+                     <svg class="card__list-item__svg" fill="currentColor" viewBox="0 0 20 20" role="img"
+                        aria-label="Часы">
+                        <use href="icon/sprite.svg#clock"></use>
+                     </svg>
+                     <p class="card__item-text">
+                        <span class="bold">
+                           2 дня
+                        </span>
+                        (с 10:00 до 15:00)
+                     </p>
+                  </li>
+
+                  <li class="card__list-item">
+                     <svg class="card__list-item__svg" fill="currentColor" viewBox="0 0 22 18" role="img"
+                        aria-label="Кисть">
+                        <use href="icon/sprite.svg#roller"></use>
+                     </svg>
+                     <p class="card__item-text">
+                        <span class="bold">
+                           10 актуальных на рынке ТС нанесения
+                        </span>
+                     </p>
+                  </li>
+               </ol>
+               <div class="price">
+                  <p class="card__price-text">Стоимость:</p>
+                  <p class="card__price bold">300 BYN</p>
+                  <a href="" class="about-course__link button">
+                     <span class="about-course">Подробнее про курс</span>
+                  </a>
+               </div>
+            </div>
+            <div class="catalog__card">
+               <img src="img/work_6.jpeg" alt="Обложка курса" class="card__img img">
+               <h3 class="card__title">Индивидуальное обучение</h3>
+               <p class="card__text">подходит для тех кто хочет пройти курс «Для начинающих» за один день, актуально для
+                  тех кто хочет приехать на обучение с другого города</p>
+               <ol class="card__list">
+                  <li class="card__list-item">
+                     <svg class="card__list-item__svg" fill="currentColor" viewBox="0 0 20 20" role="img"
+                        aria-label="Часы">
+                        <use href="icon/sprite.svg#clock"></use>
+                     </svg>
+                     <p class="card__item-text">
+                        <span class="bold">
+                           По будним дням
+                        </span>
+                        (с 10:00 до 18:00)
+                     </p>
+                  </li>
+
+                  <li class="card__list-item">
+                     <svg class="card__list-item__svg" fill="currentColor" viewBox="0 0 22 18" role="img"
+                        aria-label="Кисть">
+                        <use href="icon/sprite.svg#roller"></use>
+                     </svg>
+                     <p class="card__item-text">
+                        <span class="bold">
+                           10 базовых техник
+                        </span>
+                     </p>
+                  </li>
+               </ol>
+               <div class="price">
+                  <p class="card__price-text">Стоимость:</p>
+                  <p class="card__price bold">500 BYN</p>
+                  <a href="" class="about-course__link button">
+                     <span class="about-course">Подробнее про курс</span>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="about-us container">
+         <div class="about-us__wrapper">
+            <h2 class="about-us__title">О нас</h2>
+            <div class="about-us__block">
+               <div class="about-us__text">
+                  <p> <span class="bold">Школа декора SKILLART</span> – сообщество мастеров-декораторов с большим
+                     опытом
+                     работы на объектах, и мы хотим передать эти знания и опыт в работе с декоративными материалами вам.
+                  </p>
+                  <p> За <span class="bold">10 лет нашей практики</span> мы поработали с различными производителями
+                     декоративных материалов и с уверенностью можем вам рассказать о материалах, которые пользуются
+                     спросом и отработать их техники нанесения. Для нас важно <span class="bold">замотивировать и
+                        научить</span> вас работать
+                     на стенах, создавая красоту.</p>
+                  <p class="bold">Добро пожаловать в наше сообщество и до встречи у нас в мастерской!</p>
+               </div>
+               <div class="about-us__image">
+                  <img class="about-us__img about-us__img-1" src="img/about_us_1.jpeg" alt="О нас">
+                  <img class="about-us__img about-us__img-2" src="img/about_us_2.jpeg" alt="О нас">
+                  <img class="about-us__img about-us__img-3" src="img/about_us_3.jpeg" alt="О нас">
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>
+</body>
+
+</html>

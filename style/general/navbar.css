@@ -1,0 +1,79 @@
+/* Адаптив 1960px */
+.nav {
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 28px 0;
+   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+   background: rgb(255, 255, 255);
+   color: rgb(29, 29, 29);
+   line-height: 22px;
+   white-space: nowrap;
+}
+.nav__list,
+.nav__social {
+   display: flex;
+}
+
+.nav__list {
+   align-items: center;
+   justify-content: center;
+   gap: 50px;
+}
+.nav__list__svg {
+   margin: 0 50px;
+   height: 44px;
+   width: 244px;
+}
+
+.nav__social {
+   position: absolute;
+   right: 200px;
+}
+.nav__social__item {
+   padding: 0 10px;
+}
+.nav__social__svg {
+   height: 30px;
+   width: 30px;
+}
+
+.nav__modal {
+   display: none;
+   align-items: center;
+   position: relative;
+}
+
+/* Адаптив 1440px */
+@media (max-width: 1441px) {
+   .nav {
+      padding: 21px 0;
+      box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.1);
+      font-size: 16px;
+      line-height: 19px;
+   }
+   .nav__list__svg {
+      margin: 0 30px;
+      height: 37px;
+      width: 200px;
+   }
+
+   .nav__social {
+      right: 100px;
+   }
+   .nav__social__item {
+      padding: 0 8px;
+   }
+}
+
+/* Адаптив 1024px */
+@media (max-width: 1025px) {
+   .nav {
+      display: none;
+   }
+
+   .nav__modal {
+      display: flex;
+   }
+}

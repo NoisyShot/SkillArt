@@ -1,0 +1,127 @@
+.nav__modal {
+   flex-direction: column;
+   padding: 0;
+   white-space: unset;
+   text-align: center;
+   .nav__modal__interface-wrapper {
+      display: flex;
+      align-items: center;
+      margin: 20px 0;
+   }
+   .nav__list__svg {
+      margin: 0;
+   }
+
+   .modal__logo {
+      height: 52px;
+      width: 278px;
+   }
+   .modal__open,
+   .modal__close {
+      position: absolute;
+      right: 70px;
+   }
+   .modal__open {
+      width: 58px;
+      height: 35px;
+   }
+   .modal__close {
+      width: 44px;
+      height: 44px;
+   }
+
+   .nav__modal__window {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 220px;
+      background-color: rgb(29, 29, 29);
+      width: 100%;
+      min-height: 100vh;
+      color: rgb(255, 255, 255);
+      font-size: 50px;
+      font-weight: 500;
+      line-height: 72px;
+      padding: 110px 20px 100px 20px;
+   }
+   .nav__list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .nav__list__item:first-child {
+         margin-bottom: -20px;
+      }
+   }
+   .nav__list__course {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 25px;
+      font-weight: 300;
+      line-height: 36px;
+      .nav__list__course-item {
+         margin-bottom: 35px;
+      }
+   }
+   .nav__social {
+      position: unset;
+      .nav__social__svg {
+         height: 70px;
+         width: 70px;
+         margin: 0 18px;
+      }
+   }
+}
+
+/* Адаптив 393px */
+@media (max-width: 394px) {
+   .nav__modal {
+      .nav__modal__interface-wrapper {
+         margin: 12px 0;
+      }
+      .modal__logo {
+         height: 32px;
+         width: 168x;
+      }
+      .modal__open,
+      .modal__close {
+         position: absolute;
+         right: 20px;
+      }
+      .modal__open {
+         width: 30px;
+         height: 20px;
+      }
+      .modal__close {
+         width: 24px;
+         height: 24px;
+      }
+
+      .nav__modal__window {
+         gap: 196px;
+         font-size: 20px;
+         line-height: 29px;
+         padding: 40px 20px 110px 20px;
+      }
+      .nav__list {
+         gap: 30px;
+         .nav__list__item:first-child {
+            margin-bottom: -15px;
+         }
+      }
+      .nav__list__course {
+         font-size: 15px;
+         line-height: 22px;
+         .nav__list__course-item {
+            margin-bottom: 15px;
+         }
+      }
+      .nav__social {
+         .nav__social__svg {
+            height: 40px;
+            width: 40px;
+            margin: 0 12px;
+         }
+      }
+   }
+}
