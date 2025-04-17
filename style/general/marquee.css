@@ -1,5 +1,5 @@
 /* Адаптив 1960px */
-.ticker {
+.marquee {
    height: 40px;
    background-color: rgb(29, 29, 29);
    color: rgb(255, 255, 255);
@@ -10,7 +10,7 @@
    column-gap: 20px;
    user-select: none;
 }
-.ticker__animation {
+.marquee__animation {
    display: flex;
    column-gap: 20px;
    animation: scroll 25s linear infinite;
@@ -25,19 +25,19 @@
    }
 }
 
-.ticker__block {
+.marquee__block {
    gap: 20px;
    display: flex;
    align-items: center;
 }
-.ticker__ellipse {
+.marquee__ellipse {
    height: 3px;
    max-width: none;
 }
 
 /* Адаптив 1440px */
 @media (max-width: 1441px) {
-   .ticker {
+   .marquee {
       font-size: 13px;
       line-height: 19px;
    }
@@ -45,14 +45,14 @@
 
 /* Адаптив 1024px */
 @media (max-width: 1025px) {
-   .ticker {
+   .marquee {
       height: 48px;
    }
 }
 
 /* Адаптив 393px */
 @media (max-width: 394px) {
-   .ticker {
+   .marquee {
       font-size: 10px;
       line-height: 14px;
       height: 28px;
@@ -61,10 +61,10 @@
    .marquee {
       column-gap: 10px;
    }
-   .ticker__block {
+   .marquee__block {
       gap: 10px;
    }
-   .ticker__ellipse {
+   .marquee__ellipse {
       height: 2px;
    }
 }
