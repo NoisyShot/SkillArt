@@ -99,7 +99,7 @@ fieldset {
 .container {
    max-width: calc(var(--container) + var(--padding-container) * 2);
    padding: 0 var(--padding-container);
-   margin: 0 auto;
+   margin: 0 auto 150px auto;
 }
 
 .uppercase {
@@ -152,6 +152,9 @@ fieldset {
    h3 {
       font-size: 25px;
    }
+   .container {
+      margin-bottom: 100px;
+   }
 }
 @media (max-width: 1025px) {
    html {
@@ -201,5 +204,8 @@ fieldset {
       padding: 15px;
       font-size: 15px;
       line-height: 18px;
+   }
+   .container {
+      margin-bottom: 70px;
    }
 }
