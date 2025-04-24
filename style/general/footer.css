@@ -11,8 +11,15 @@
 }
 .footer__main {
    display: flex;
-   gap: 80px;
+   gap: 296px;
    margin-top: 60px;
+}
+.footer__nav {
+   display: flex;
+   gap: 80px;
+}
+.footer__others {
+   font-family: "Inter";
 }
 .footer__list {
    max-width: 294px;
@@ -29,7 +36,7 @@
 }
 .footer__svg-logo {
    height: 45px;
-   margin: 20px 218px 0 0;
+   margin-top: 20px;
 }
 h4 {
    font-size: 18px;
@@ -52,49 +59,105 @@ h4 {
 
 @media (max-width: 1441px) {
    .footer__main {
-      display: flex;
-      gap: 80px;
-      margin-top: 60px;
+      gap: 60px;
    }
    .footer__list {
-      max-width: 294px;
-      margin-bottom: 56px;
-   }
-   .footer__block {
-      display: flex;
-      align-items: center;
-      gap: 10px;
+      max-width: 264px;
+      margin-bottom: 50px;
    }
    .footer__list-item {
-      margin-bottom: 24px;
-      font-size: 20px;
+      margin-bottom: 16px;
+      font-size: 18px;
    }
    .footer__svg-logo {
-      height: 45px;
-      margin: 20px 218px 0 0;
+      width: 244px;
+      margin: 0 120px 0 0;
    }
    h4 {
-      font-size: 18px;
-      line-height: 145%;
-      font-weight: 400;
-      color: #b0b0b0;
-      margin-bottom: 28px;
-      font-family: "Inter";
-   }
-   .footer__svg {
-      height: 24px;
-      width: 24px;
-   }
-
-   .footer__customer {
-      margin-bottom: 20px;
       font-size: 16px;
-      font-weight: 300;
+      margin-bottom: 20px;
+   }
+   .footer__customer {
+      font-size: 14px;
    }
 }
 
 @media (max-width: 1025px) {
+   .footer__nav {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr auto;
+      flex-wrap: wrap;
+      gap: 100px 72px;
+      margin-bottom: 110px;
+   }
+   .footer__curses {
+      grid-column: 2;
+      grid-row: 1/3;
+   }
+   .footer__list {
+      margin-bottom: 0;
+   }
+   .footer__svg-logo {
+      margin: 0 95px 0 0;
+   }
+   .footer__customer {
+      margin-bottom: 30px;
+   }
 }
 
 @media (max-width: 394px) {
+   .footer__warper {
+      flex-direction: column;
+      align-items: center;
+   }
+   .footer__main {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   .footer__nav {
+      display: block;
+      margin-bottom: 20px;
+   }
+   .footer__contacts {
+      margin-bottom: 40px;
+   }
+   .footer__curses {
+      margin-bottom: 30px;
+   }
+   .footer__others {
+      color: #b0b0b0;
+   }
+   .footer__list {
+      max-width: inherit;
+      margin-bottom: 0;
+   }
+   .footer__block {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+   }
+   .footer__list-item {
+      font-size: 15px;
+   }
+   .footer__svg-logo {
+      height: 31px;
+      width: 169px;
+      margin: 30px 0 0 0;
+   }
+   h4 {
+      font-size: 15px;
+      margin-bottom: 20px;
+   }
+   .footer__svg {
+      height: 15px;
+      width: 15px;
+   }
+
+   .footer__customer {
+      margin-bottom: 20px;
+      font-size: 13px;
+   }
 }

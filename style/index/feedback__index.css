@@ -1,8 +1,9 @@
+.feedback {
+   padding: 0 295px;
+}
 .feedback__wrapper {
    display: flex;
-   gap: 146px;
-   margin-left: 135px;
-   margin-right: 135px;
+   justify-content: space-between;
 }
 .feedback__title {
    font-size: 45px;
@@ -31,8 +32,8 @@
 }
 
 @media (max-width: 1441px) {
-   .feedback__wrapper {
-      gap: 208px;
+   .feedback {
+      padding: 0 120px;
    }
    .feedback__title {
       font-size: 35px;
@@ -51,8 +52,8 @@
 }
 
 @media (max-width: 1025px) {
-   .feedback__wrapper {
-      gap: 100px;
+   .feedback {
+      padding: 0 70px;
    }
    .feedback__title {
       font-size: 30px;
@@ -69,10 +70,11 @@
 }
 
 @media (max-width: 394px) {
+   .feedback {
+      padding: 0 20px;
+   }
    .feedback__wrapper {
-      display: flex;
       flex-direction: column;
-      gap: 0;
    }
    .feedback__title {
       font-size: 20px;
