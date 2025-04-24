@@ -1,10 +1,8 @@
-.feedback {
-   margin-left: 135px;
-   margin-right: 135px;
-}
 .feedback__wrapper {
    display: flex;
    gap: 146px;
+   margin-left: 135px;
+   margin-right: 135px;
 }
 .feedback__title {
    font-size: 45px;
@@ -33,10 +31,6 @@
 }
 
 @media (max-width: 1441px) {
-   .feedback {
-      margin-left: 0;
-      margin-right: 0;
-   }
    .feedback__wrapper {
       gap: 208px;
    }
