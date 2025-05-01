@@ -33,6 +33,8 @@
 
 
    <!-- to do переделать h-ки во всём файле -->
+   <!-- to do анимация подчеркивания в меню  -->
+   <!-- to do скрипт для открытия модального окна меню  -->
 
 </head>
 
@@ -109,7 +111,7 @@
 
       <nav class="nav">
          <ol class="nav__list">
-            <li class="nav__list__item"><a href="#" class="nav__list__item-link" href="">Контакты</a></li>
+            <li class="nav__list__item"><a href="#feedback" class="nav__list__item-link" href="">Контакты</a></li>
             <li class="nav__list__item"><a href="#" class="nav__list__item-link" href="">О Нас </a></li>
             <li class="nav__list__item"><a href="#" class="nav__list__item-link" href="">
                   <svg class="nav__list__svg" viewBox="0 0 244 45" role="img" aria-label="Логотип SkillArt">
@@ -117,7 +119,8 @@
                   </svg>
                </a></li>
             <li class="nav__list__item"><a href="#" class="nav__list__item-link" href="">Курсы</a></li>
-            <li class="nav__list__item"><a href="#" class="nav__list__item-link" href="">Расписание</a></li>
+            <li class="nav__list__item"><a href="web_pages/schedule.html" class="nav__list__item-link"
+                  href="">Расписание</a></li>
          </ol>
          <ol class="nav__social">
             <li class="nav__social__item">
@@ -197,7 +200,8 @@
                      <a href="#" class="nav__list__course-link">Индивидуальное обучение</a>
                   </li>
                </ol>
-               <li class="nav__list__item"><a href="#" class="nav__list__item-link uppercase" href="">расписание</a>
+               <li class="nav__list__item"><a href="web_pages/schedule.html" class="nav__list__item-link uppercase"
+                     href="">расписание</a>
                </li>
                <li class="nav__list__item"><a href="#" class="nav__list__item-link uppercase" href="">контакты</a></li>
             </ol>
@@ -230,13 +234,12 @@
                   <a href="" class="nav__social__item-link">
                      <svg class="nav__social__svg nav__social__svg-instagram" viewBox="0 0 25 25" role="img"
                         aria-label="Инстаграм">
-                        <use href="icon/sprite__social.svg#instagram"></use>
+                        <use href="icon/sprite__social.svg#instagram-nav"></use>
                      </svg>
                   </a>
                </li>
             </ol>
          </div>
-         <!-- to do анимация подчеркивания в меню  -->
       </nav>
 
 
@@ -566,7 +569,6 @@
          </div>
       </section>
 
-      <!-- To do внести правки по ширине бэкграунда обертки -->
       <section class="reviews container">
          <h2 class="reviews__tittle">Отзывы</h2>
          <p class="reviews__text">Хотите узнать мнение наших учеников? Нажмите на кнопку ниже и перейдите на нашу
@@ -580,7 +582,7 @@
          </a>
       </section>
 
-      <section class="feedback container">
+      <section class="feedback container" id="feedback">
          <div class="feedback__wrapper">
             <div class="feedback__contacts">
                <h1 class="feedback__title">Связаться с нами</h1>
@@ -704,7 +706,7 @@
                <div class="footer__others">
                   <ol class="footer__list">
                      <li class="footer__list-item">
-                        <a href="#">Расписание курсов</a>
+                        <a href="web_pages/schedule.html">Расписание курсов</a>
                      </li>
                      <li class="footer__list-item">
                         <a href="#">Отзывы</a>

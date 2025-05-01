@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>SkillArt</title>
+
+   <!-- favicon -->
+   <link rel="apple-touch-icon" sizes="180x180" href="../icon/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="../icon/favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="../icon/favicon/favicon-16x16.png">
+   <link rel="manifest" href="../icon/favicon/site.webmanifest">
+   <link rel="mask-icon" href="../icon/favicon/safari-pinned-tab.svg" color="#5bbad5">
+   <meta name="msapplication-TileColor" content="#603cba">
+   <meta name="theme-color" content="#ff0000">
+   <!-- favicon - end -->
+
+   <!-- fonts -->
+   <link rel="preload" href="https://fonts.googleapis.com" as="font" crossorigin>
+   <link rel="preload" href="https://fonts.gstatic.com" as="font" crossorigin>
+   <!-- fonts - end -->
+
+   <!-- style -->
+   <link rel="stylesheet" href="../style/index.css" />
+   <!-- to do разобраться как правильно подключать стили на многостраничный сайт -->
+   <!-- style - end -->
+
+   <!-- script vanilla -->
+   <script src="../JS/script.js" defer></script>
+   <!-- Пока что пуст -->
+   <!-- script vanilla  end-->
+
+
+   <!-- to do переделать h-ки во всём файле -->
+   <!-- to do анимация подчеркивания в меню  -->
+   <!-- to do скрипт для открытия модального окна меню  -->
+
+</head>
+
+<body>
+
+   <header class="header container no-padding">
+      <div class="marquee">
+         <div class="marquee__animation">
+            <div class="marquee__block">
+               <svg class="marquee__ellipse" viewBox="0 0 3 3" role="img" aria-label="разделитель бегущей строки">
+                  <use href="../icon/sprite.svg#ellipse"></use>
+               </svg>
+               <p class="marquee__text uppercase">5&nbsp;&mdash; 6&nbsp;июля курс &laquo;для начинающих&raquo;</p>
+            </div>
+            <div class="marquee__block">
+               <svg class="marquee__ellipse" viewBox="0 0 3 3" role="img" aria-label="разделитель бегущей строки">
+                  <use href="../icon/sprite.svg#ellipse">
+               </svg>
+               <p class="marquee__text uppercase">5&nbsp;&mdash; 6&nbsp;июля курс &laquo;для начинающих&raquo;</p>
+            </div>
+            <div class="marquee__block">
+               <svg class="marquee__ellipse" viewBox="0 0 3 3" role="img" aria-label="разделитель бегущей строки">
+                  <use href="../icon/sprite.svg#ellipse">
+               </svg>
+               <p class="marquee__text uppercase">5&nbsp;&mdash; 6&nbsp;июля курс &laquo;для начинающих&raquo;</p>
+            </div>
+            <div class="marquee__block">
+               <svg class="marquee__ellipse" viewBox="0 0 3 3" role="img" aria-label="разделитель бегущей строки">
+                  <use href="../icon/sprite.svg#ellipse">
+               </svg>
+               <p class="marquee__text uppercase">5&nbsp;&mdash; 6&nbsp;июля курс &laquo;для начинающих&raquo;</p>
+            </div>
+            <div class="marquee__block">
+               <svg class="marquee__ellipse" viewBox="0 0 3 3" role="img" aria-label="разделитель бегущей строки">
+                  <use href="../icon/sprite.svg#ellipse">
+               </svg>
+               <p class="marquee__text uppercase">5&nbsp;&mdash; 6&nbsp;июля курс &laquo;для начинающих&raquo;</p>
+            </div>
+         </div>
+
+         <div aria-hidden="true" class="marquee__animation">
+            <div class="marquee__block">
+               <svg class="marquee__ellipse" viewBox="0 0 3 3" role="img" aria-label="разделитель бегущей строки">
+                  <use href="../icon/sprite.svg#ellipse">
+               </svg>
+               <p class="marquee__text uppercase">5&nbsp;&mdash; 6&nbsp;июля курс &laquo;для начинающих&raquo;</p>
+            </div>
+            <div class="marquee__block">
+               <svg class="marquee__ellipse" viewBox="0 0 3 3" role="img" aria-label="разделитель бегущей строки">
+                  <use href="../icon/sprite.svg#ellipse">
+               </svg>
+               <p class="marquee__text uppercase">5&nbsp;&mdash; 6&nbsp;июля курс &laquo;для начинающих&raquo;</p>
+            </div>
+            <div class="marquee__block">
+               <svg class="marquee__ellipse" viewBox="0 0 3 3" role="img" aria-label="разделитель бегущей строки">
+                  <use href="../icon/sprite.svg#ellipse">
+               </svg>
+               <p class="marquee__text uppercase">5&nbsp;&mdash; 6&nbsp;июля курс &laquo;для начинающих&raquo;</p>
+            </div>
+            <div class="marquee__block">
+               <svg class="marquee__ellipse" viewBox="0 0 3 3" role="img" aria-label="разделитель бегущей строки">
+                  <use href="../icon/sprite.svg#ellipse">
+               </svg>
+               <p class="marquee__text uppercase">5&nbsp;&mdash; 6&nbsp;июля курс &laquo;для начинающих&raquo;</p>
+            </div>
+            <div class="marquee__block">
+               <svg class="marquee__ellipse" viewBox="0 0 3 3" role="img" aria-label="разделитель бегущей строки">
+                  <use href="../icon/sprite.svg#ellipse">
+               </svg>
+               <p class="marquee__text uppercase">5&nbsp;&mdash; 6&nbsp;июля курс &laquo;для начинающих&raquo;</p>
+            </div>
+         </div>
+      </div>
+
+      <nav class="nav">
+         <ol class="nav__list">
+            <li class="nav__list__item"><a href="#" class="nav__list__item-link" href="">Контакты</a></li>
+            <li class="nav__list__item"><a href="#" class="nav__list__item-link" href="">О Нас </a></li>
+            <li class="nav__list__item"><a href="#" class="nav__list__item-link" href="">
+                  <svg class="nav__list__svg" viewBox="0 0 244 45" role="img" aria-label="Логотип SkillArt">
+                     <use xlink:href="../icon/sprite.svg#logo" />
+                  </svg>
+               </a></li>
+            <li class="nav__list__item"><a href="#" class="nav__list__item-link" href="">Курсы</a></li>
+            <li class="nav__list__item"><a href="#" class="nav__list__item-link" href="">Расписание</a></li>
+         </ol>
+         <ol class="nav__social">
+            <li class="nav__social__item">
+               <a href="#" class="nav__social__item-link">
+                  <svg class="nav__social__svg nav__social__svg-phone" viewBox="0 0 25 25" role="img"
+                     aria-label="Телефон">
+                     <use href="../icon/sprite.svg#phone"></use>
+                  </svg>
+               </a>
+            </li>
+            <li class="nav__social__item">
+               <a href="#" class="nav__social__item-link">
+                  <svg class="nav__social__svg nav__social__svg-email" viewBox="0 0 25 25" role="img"
+                     aria-label="Электронная почта">
+                     <use href="../icon/sprite__social.svg#email"></use>
+                  </svg>
+               </a>
+            </li>
+            <li class="nav__social__item">
+               <a href="#" class="nav__social__item-link">
+                  <svg class="nav__social__svg nav__social__svg-telegram" viewBox="0 0 25 25" role="img"
+                     aria-label="Телеграм">
+                     <use href="../icon/sprite__social.svg#telegram"></use>
+                  </svg>
+               </a>
+            </li>
+            <li class="nav__social__item">
+               <a href="#" class="nav__social__item-link">
+                  <svg class="nav__social__svg nav__social__svg-instagram" fill="transparent" viewBox="0 0 25 25"
+                     role="img" aria-label="Инстаграм">
+                     <use href="../icon/sprite__social.svg#instagram-nav"></use>
+                  </svg>
+               </a>
+            </li>
+         </ol>
+      </nav>
+
+      <nav class="nav nav__modal ">
+         <div class="nav__modal__interface-wrapper">
+            <a href="#" class="nav__list__item-link" href="#">
+               <svg class="nav__list__svg modal__logo" viewBox="0 0 244 45" role="img" aria-label="Логотип SkillArt">
+                  <use xlink:href="../icon/sprite.svg#logo" />
+               </svg>
+            </a>
+
+            <svg class="nav__list__svg modal__open" viewBox="0 0 58 35" role="img" aria-label="Выпадающее меню">
+               <use xlink:href="../icon/sprite.svg#modal__open" />
+            </svg>
+
+            <svg class="nav__list__svg modal__close hidden" viewBox="0 0 58 35" role="img" aria-label="Выпадающее меню">
+               <use xlink:href="../icon/sprite.svg#modal__close" />
+            </svg>
+         </div>
+
+         <div class="nav__modal__window hidden">
+            <ol class="nav__list">
+               <li class="nav__list__item"><a href="#" class="nav__list__item-link uppercase" href="">курсы</a>
+               </li>
+               <ol class="nav__list__course">
+                  <li class="nav__list__course-item">
+                     <a href="#" class="nav__list__course-link">Курс "Для начинающих"</a>
+                  </li>
+                  <li class="nav__list__course-item">
+                     <a href="#" class="nav__list__course-link">Курс "Имитация мрамора"</a>
+                  </li>
+                  <li class="nav__list__course-item">
+                     <a href="#" class="nav__list__course-link">Курс "Лофт"</a>
+                  </li>
+                  <li class="nav__list__course-item">
+                     <a href="#" class="nav__list__course-link">Курс "Трафаретные техники для акцентных стен в
+                        интерьере"</a>
+                  </li>
+                  <li class="nav__list__course-item">
+                     <a href="#" class="nav__list__course-link">Курс "Тонкослойное нанесение"</a>
+                  </li>
+                  <li class="nav__list__course-item">
+                     <a href="#" class="nav__list__course-link">Индивидуальное обучение</a>
+                  </li>
+               </ol>
+               <li class="nav__list__item"><a href="#" class="nav__list__item-link uppercase" href="">расписание</a>
+               </li>
+               <li class="nav__list__item"><a href="#" class="nav__list__item-link uppercase" href="">контакты</a></li>
+            </ol>
+            <ol class="nav__social">
+               <li class="nav__social__item">
+                  <a href="" class="nav__social__item-link">
+                     <svg class="nav__social__svg nav__social__svg-phone" viewBox="0 0 25 25" role="img"
+                        aria-label="Телефон">
+                        <use href="../icon/sprite.svg#phone"></use>
+                     </svg>
+                  </a>
+               </li>
+               <li class="nav__social__item">
+                  <a href="" class="nav__social__item-link">
+                     <svg class="nav__social__svg nav__social__svg-email" viewBox="0 0 25 25" role="img"
+                        aria-label="Электронная почта">
+                        <use href="../icon/sprite__social.svg#email"></use>
+                     </svg>
+                  </a>
+               </li>
+               <li class="nav__social__item">
+                  <a href="" class="nav__social__item-link">
+                     <svg class="nav__social__svg nav__social__svg-telegram" viewBox="0 0 25 25" role="img"
+                        aria-label="Телеграм">
+                        <use href="../icon/sprite__social.svg#telegram"></use>
+                     </svg>
+                  </a>
+               </li>
+               <li class="nav__social__item">
+                  <a href="" class="nav__social__item-link">
+                     <svg class="nav__social__svg nav__social__svg-instagram" viewBox="0 0 25 25" role="img"
+                        aria-label="Инстаграм">
+                        <use href="../icon/sprite__social.svg#instagram-nav"></use>
+                     </svg>
+                  </a>
+               </li>
+            </ol>
+         </div>
+      </nav>
+
+
+      <div class="hero">
+         <div class="swiper">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide"><img src="img/work_1.jpeg" alt="Пример работы"></div>
+               <div class="swiper-slide"><img src="img/work_2.jpeg" alt="Пример работы"></div>
+               <div class="swiper-slide"><img src="img/work_3.jpeg" alt="Пример работы"></div>
+               <div class="swiper-slide"><img src="img/work_4.jpeg" alt="Пример работы"></div>
+               <div class="swiper-slide"><img src="img/work_5.jpeg" alt="Пример работы"></div>
+               <div class="swiper-slide"><img src="img/work_6.jpeg" alt="Пример работы"></div>
+            </div>
+
+            <div class="swiper-index">
+               <svg class="swiper-index__ellipse" viewBox="0 0 10 10" role="img" aria-label="индекс карусели">
+                  <use href="../icon/sprite.svg#ellipse"></use>
+               </svg>
+            </div>
+         </div>
+         <!-- to do добавляем через скрипт ещё иконок и делаем их прозрачными  -->
+         <div class="preview__wrapper container">
+            <h1 class="preview__title">Обучение декоративной штукатурке в Минске</h1>
+            <p class="preview__text">Хочешь научиться интересной и престижной профессии?</p>
+            <a href="#" class="preview__button registration-button button">
+               <svg class="preview__button-svg registration-button-svg" fill="currentColor" viewBox="0 0 25 25"
+                  role="img" aria-label="Телеграм">
+                  <use href="../icon/sprite__social.svg#telegram"></use>
+               </svg>
+               <span class="preview__button-text registration-button-text">Записаться на курс</span>
+            </a>
+         </div>
+      </div>
+   </header>
+
+   <main>
+
+   </main>
+
+   <footer class="footer container">
+      <div class="footer__warper">
+         <div class="footer__main">
+            <div class="footer__logo">
+               <a href="#">
+                  <svg class="footer__svg-logo" role="img" aria-label="Логотип SkillArt">
+                     <use xlink:href="../icon/sprite.svg#logo" />
+                  </svg>
+               </a>
+            </div>
+            <div class="footer__nav">
+               <div class="footer__contacts">
+                  <h4 class="footer__title">Контакты:</h4>
+                  <ol class="footer__list">
+                     <li class="footer__list-item">
+                        <div class="footer__block footer__block-phone">
+                           <svg class="footer__svg footer_svg-phone" viewBox="0 0 24 24" role="img"
+                              aria-label="Телефон">
+                              <use href="../icon/sprite.svg#phone"></use>
+                           </svg>
+                           <a class="footer__link" href="tel:+375331234545">
+                              +375 33 123 45 45
+                           </a>
+                        </div>
+                     </li>
+
+                     <li class="footer__list-item">
+                        <div class="footer__block footer__block-address">
+                           <svg class="footer__svg footer_svg-address" viewBox="0 0 24 24" role="img"
+                              aria-label="Телефон">
+                              <use href="../icon/sprite.svg#map-marker"></use>
+                           </svg>
+                           <a class="footer__link" target="_blank"
+                              href="https://www.google.ru/maps/place/%D0%BF%D1%80%D0%BE%D1%81%D0%BF.+%D0%9C%D0%B0%D1%88%D0%B5%D1%80%D0%BE%D0%B2%D0%B0+11,+%D0%9C%D0%B8%D0%BD%D1%81%D0%BA,+%D0%9C%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+%D0%91%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C/@53.9157401,27.5691561,17z/data=!3m1!4b1!4m6!3m5!1s0x46dbcf982535d7e7:0xa6989b1ae58a3b4d!8m2!3d53.9157401!4d27.5691561!16s%2Fg%2F11b8txb9p2?hl=ru&entry=ttu&g_ep=EgoyMDI1MDQxNi4xIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D">
+                              Минск, Машерова, 11
+                           </a>
+                        </div>
+                     </li>
+
+                     <li class="footer__list-item">
+                        <div class="footer__block footer__block-email">
+                           <svg class="footer__svg footer_svg-email" viewBox="0 0 24 24" role="img"
+                              aria-label="Телефон">
+                              <use href="../icon/sprite__social.svg#email"></use>
+                           </svg>
+                           <a class="footer__link" href="mail:test@gmail.com">
+                              test@gmail.com
+                           </a>
+                        </div>
+                     </li>
+                  </ol>
+               </div>
+               <div class="footer__curses">
+                  <h4 class="footer__title">Курсы:</h4>
+                  <ol class="footer__list">
+                     <li class="footer__list-item">
+                        <a href="#">&laquo;Для начинающих&raquo; </a>
+                     </li>
+                     <li class="footer__list-item">
+                        <a href="#">&laquo;Имитация мрамора&raquo; </a>
+                     </li>
+                     <li class="footer__list-item">
+                        <a href="#">&laquo;Лофт&raquo; </a>
+                     </li>
+                     <li class="footer__list-item">
+                        <a href="#">&laquo;Трафаретные техники для акцентных стен в интерьере&raquo; </a>
+                     </li>
+                     <li class="footer__list-item">
+                        <a href="#">&laquo;Тонкослойные нанесения&raquo; </a>
+                     </li>
+                     <li class="footer__list-item">
+                        <a href="#">&laquo;Индивидуальное обучение&raquo; </a>
+                     </li>
+                  </ol>
+               </div>
+               <div class="footer__others">
+                  <ol class="footer__list">
+                     <li class="footer__list-item">
+                        <a href="#">Расписание курсов</a>
+                     </li>
+                     <li class="footer__list-item">
+                        <a href="#">Отзывы</a>
+                     </li>
+                     <li class="footer__list-item">
+                        <a href="#">О нас</a>
+                     </li>
+                  </ol>
+               </div>
+            </div>
+         </div>
+         <div class="footer__customer">
+            <p class="footer__text">ИП Непогода Р.А. УНП 291210693</p>
+         </div>
+      </div>
+
+   </footer>
+</body>
+
+</html>
